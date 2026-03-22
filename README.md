@@ -54,7 +54,7 @@ To develop a Python based tool that helps actuaries or underwriters estimate Pro
 
 ## 5. Documentation
 
-A detailed step-by-step explanation of the model, inputs, and outputs along with the limitations is provided in `Documentation` present in this repository.
+A detailed step-by-step explanation of the model, inputs, and outputs along with the limitations is provided in `Documentation_MortgageReinsurancePML` present in this repository.
 
 ---
 
@@ -63,7 +63,7 @@ A detailed step-by-step explanation of the model, inputs, and outputs along with
 - `01_MortgageReinsurance_PML` — Core python engine  
 - `Input Files` — Assumptions and loan level data  
 - `Output Files` — PML results and simulations  
-- `Documentation` - Detailed model explanation
+- `Documentation_MortgageReinsurancePML` - Detailed model explanation
 
 ---
 
