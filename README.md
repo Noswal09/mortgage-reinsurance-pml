@@ -44,7 +44,23 @@ To develop a Python based tool that helps actuaries or underwriters estimate Pro
 
 ---
 
-## 4. Key Insights
+## 4. Results & Visualisation
+
+### Average Loss from each State to show key risk areas
+
+![USA Heat Map](./images/state_loss_heatmap.png)
+
+Total losses are concentrated in Virginia, New Mexico, Texas, New York and Florida, reflecting a combination of portfolio size and higher-risk loan characteristics in those states.
+
+### PML Histogram
+
+![PML Histogram](./images/pml_histogram.png)
+
+The PML distribution is right-skewed with most simulated values clustering below $200,000. The long tail reflects scenarios where adverse HPI movements and high default rates coincide, driving extreme losses.
+
+---
+
+## 5. Key Insights
 
 - PML estimates are highly sensitive to joint movements in default rates and house prices, highlighting the importance of modelling parameter uncertainty
 - Deterministic assumptions can significantly underestimate tail risk, particularly under adverse HPI scenarios
@@ -52,22 +68,22 @@ To develop a Python based tool that helps actuaries or underwriters estimate Pro
 
 ---
 
-## 5. Documentation
+## 6. Documentation
 
-A detailed step-by-step explanation of the model, inputs, and outputs along with the limitations is provided in `Documentation_MortgageReinsurancePML` present in this repository.
+A detailed step-by-step explanation of the model, inputs, and outputs along with the limitations is provided in **[Documentation_MortgageReinsurance_PML](https://drive.google.com/file/d/1ceFMN5gTWdDX1-OXLYCBbv7S7rEArIO7/view?usp=sharing)** present in this repository.
 
 ---
 
-## 6. Repository Structure
+## 7. Repository Structure
 
 - `01_MortgageReinsurance_PML` — Core python engine  
 - `Input Files` — Assumptions and loan level data  
 - `Output Files` — PML results and simulations  
-- `Documentation_MortgageReinsurancePML` - Detailed model explanation
+- `Documentation` - Detailed model explanation
 
 ---
 
-## 7. Takeaway
+## 8. Takeaway
 
 This project highlights how incorporating stochasticity into mortgage loss modelling materially changes the understanding of tail risk, making it critical for pricing and risk management of reinsurance treaties.
 
